@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    text-decoration-color: white;
+    background-color: red;
+}
+h2{
+    text-align: center;
+    background-color: green;
+    text-decoration-color: red;
+}
+
+
+.container-1{
+    text-align: center;
+    background-color:white; font-size: 15px;
+    border-style: solid;
+    border-width: 30px;
+    border-color: darkred;
+    
+}
+
+.container-2{
+    text-align: center;
+    background-color:  white; font-size: 15px;
+    border-style: solid;
+    border-width: 30px;
+    border-color: green;
+
+}
+ul{
+    text-align: center;
+}

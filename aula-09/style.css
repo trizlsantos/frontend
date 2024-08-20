@@ -1,0 +1,15 @@
+div{
+    background-color: indianred;
+}
+.um{
+    background-color: khaki;
+}
+.tres{
+    background-color: lavender;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background-image: url("sabrina.png");
+    background-repeat: round;
+}
