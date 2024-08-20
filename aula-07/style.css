@@ -1,0 +1,21 @@
+
+
+.container-1{
+    text-align: center;
+    background-color:brown; font-size: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkred;
+    
+}
+
+.container-2{
+    text-align: center;
+    background-color: blanchedalmond; font-size: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: cornsilk;
+
+}
+
+
