@@ -1,0 +1,24 @@
+h1{
+    background-color: brown;
+    display: block;
+}
+
+p{
+    background-color: green;
+}
+
+span{
+    background-color: brown;
+    
+}
+
+.span2{
+    background-color: green;
+}
+
+a{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+}
