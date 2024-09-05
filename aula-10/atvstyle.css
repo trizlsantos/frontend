@@ -1,0 +1,15 @@
+.image{
+    height: 500px;
+}
+
+
+.container-01{
+    background-color: gray ; 
+    height: 15px;
+    border-width: 20px  ;
+    text-align: center;
+    
+}
+body{
+    margin: 0px;
+}
