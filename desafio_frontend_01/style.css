@@ -1,7 +1,38 @@
+body{
+    background-color:  hsl(30, 38%, 92%);
+}
+
+h1{
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+}
+
 .container{ 
-  
+
     width: 600px;
     height: 700px;
     text-align: center;
     display: flex;
+    background-color: white;
+    width: 800px;
+    height: 600px;
+
+}
+img{
+    height: 600px;
+}
+.item-2{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.container h1{
+    font-size: 50px;
+}
+.container h2{
+    opacity: 20%;
 }
