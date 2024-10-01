@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+p{
+    color: white;
+    background-color: brown;
+    margin: 10px
+}
+
+.cinza{
+    background-color: gray;
+}
