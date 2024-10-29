@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introdução ao JavaScript - DOM</title>
+</head>
+<body>
+    <h1 class="titulo"></h1>
+    <p id = "paragrafo"></p>
+    <a href="#"class = "link"></a>
+    <div class="lista"></div>
+</body>
+<script>
+    const titulo = document.getElementsByClassName("titulo");
+    titulo[0].textContent = "Esse é o meu titulo"
+
+    const paragrafo = document.getElementById("paragrafo");
+    paragrafo.textContent = "Esse é o meu paragrafo!"
+
+    //Pega os elementos utilizando os seletores CSS
+    const link = document.querySelector(".link");
+    link.textContent = "Google";
+
+    //Criando elemento HTML
+    const lista = document.querySelector(".lista");
+    lista.innerHTML = ` <ul>
+                           <li>Item 1 </li>
+                           <li>Item 2 </li>
+                           </ul>`;
+
+     //Adicionando estilo com JS
+     document.body.style.backgroundColor = "pink"
+     lista.style.backgroundColor = "orange"
+     lista.style.marginTop = "100px,"                      
+
+    </script>
+</html>
