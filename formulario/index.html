@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact us</h1>
+        <form class="formulario">
+            <label for="first name">first name</label>
+            <input id="first-name" type="text">
+
+            <label for="last name" type="text">last name</label>
+            <input id="last name" type="text">
+
+            <label for="email address">email address</label>
+            <input id="email" type="email">
+            
+            <label for="query type">query type</label>
+                    <input type="radio" name="queryType" class="radio-button">
+                    <label for="generalEnquiry">General Enquiry</label>
+                    <input type="radio" name="queryType" class="radio-button">
+                    <label for="supportRequest">Support Request</label>
+
+            <label for="message">message</label>
+            <input id="message" type="text">
+
+            <label for="consent">I consent to being contacted by the team *</label>
+            <input type="checkbox" id="consent" />
+
+            <button type="button" onclick="submit">submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

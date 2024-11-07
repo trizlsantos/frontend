@@ -1,0 +1,51 @@
+root{
+ -Green-200: hsl(148, 38%, 91%);
+-Green-600: hsl(169, 82%, 27%);
+-Red: hsl(0, 66%, 54%);
+-White: hsl(0, 0%, 100%);
+-Grey-500: hsl(186, 15%, 59%);
+-Grey-900: hsl(187, 24%, 22%);
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    color: hsl(187, 24%, 22%);
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(148, 38%, 91%);
+  }
+
+  .container {
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(169, 82%, 27%);
+  }
+    
